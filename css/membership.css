@@ -1,0 +1,107 @@
+.loginbg {
+  background: url('../images/landingtop-signup.jpg') no-repeat center center; 
+    background-size:cover;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+
+.loginwrap {
+  padding-top: 45px;
+  padding-left: 5%;
+  border: 1px solid rgba(214,214,214,0.3);
+  width: 85%;
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: goldenrod;
+/*  opacity: .75;*/
+}
+
+.signupwrap {
+  margin-top: 25px;
+  width: 500px;
+}
+
+.wrapcolor{
+  background-color: goldenrod;
+}
+
+.hlogo {
+  margin-top: 40px;
+  text-align: center;
+}
+.linksignup {
+  margin-top: 60px;
+  text-align: center;
+/*  padding-bottom: 30px;*/
+}
+
+.memberbox {
+  padding-top: 25px;
+}
+
+
+#login_email, #register_email {
+  width: 280px;
+  height: 35px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#login_password, #register_password{
+  width: 280px;
+  height: 35px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#login_button, #register_button {
+  width: 280px;
+  height: 35px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+/*  background-color: #222222;*/
+
+}
+
+.btn-secondary {
+  color: white;
+}
+.btn-secondary:hover {
+  color: white;
+  font-weight: 700;
+}
+
+@media (max-width:768px) { 
+.hlogo {
+  padding-left: 85px;
+}
+
+#login_email, #register_email {
+  margin-left: 50px;
+  margin-bottom: 0px !important;
+ }
+
+#login_password, #register_password{
+  margin-left: 50px;
+  margin-bottom: 0px !important;
+ }
+
+#login_button, #register_button {
+  margin-left: 50px;
+ }
+.linkpage {
+  padding-left: 102px;
+}
+.passwrap{
+  margin-top: -18px;
+}
+
+}
