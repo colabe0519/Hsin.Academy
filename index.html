@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Jquary -->
+<link href="https://code.jquery.com/ui/1.11.4/themes/cupertino/jquery-ui.css" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- JavaScript -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Font awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">  
+
+<!-- Font family -->
+<link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/navbarLeft.css">
+
+<!-- Button Sign Up and Log in --> 
+<script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+<script src="js/js.js"></script>
+<script src="js/navbarOpen.js"></script>
+<script src="js/research.js"></script>
+
+<title>H.academy</title>
+</head>
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="slide-nav">
+<div class="container">
+<div class="navbar-header">
+<a class="navbar-toggle"> 
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</a>
+<a class="navbar-brand">H.academy</a>
+</div>
+<div id="slidemenu">
+     
+<form class="navbar-form navbar-right" role="form">
+<div class="form-group">
+             <!--  <input type="search" placeholder="search" class="form-control"> -->
+</div>
+            <!-- <button id="autocomplete-1" type="submit" class="btn btn-primary form-control">Search</button> -->
+            <!-- <input id="autocomplete-1" type="text" class="form-control" placeholder="Search for..."> -->
+</form>
+     
+<ul class="nav navbar-nav">
+<li class="active"><a href="index.html">Home</a></li>
+<li><a href="signup.html" style="font-size: .85em;">Sign up</a></li>
+<li><a href="login.html" style="font-size: .85em;">Log in</a></li>
+     <!-- <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+       <li><a href="#">Action</a></li>
+       <li><a href="#">Another action</a></li>
+       <li><a href="#">Something else here</a></li>
+       <li class="divider"></li>
+       <li class="dropdown-header">Nav header</li>
+       <li><a href="#">Separated link</a></li>
+       <li><a href="#">One more separated link</a></li>
+       <li><a href="#">Action</a></li>
+       <li><a href="#">Another action</a></li>
+       <li><a href="#">Something else here</a></li>
+       <li class="divider"></li>
+       <li class="dropdown-header">Nav header</li>
+       <li><a href="#">Separated link</a></li>
+       <li><a href="#">One more separated link</a></li>
+       <li><a href="#">Action</a></li>
+       <li><a href="#">Another action</a></li>
+       <li><a href="#">Something else here</a></li>
+       <li class="divider"></li>
+       <li class="dropdown-header">Nav header</li>
+       <li><a href="#">Separated link test long title goes here</a></li>
+       <li><a href="#">One more separated link</a></li>
+      </ul>
+     </li> -->
+</ul>
+          
+</div>
+</div>
+</div>
+
+ <div id="page-content">
+
+  <div class="jumbotron">
+    <div class="container header jumbg1 img-responsive">
+      <!-- <div><img class="hlogo img-responsive" src="images/Hacademy.png">
+        <button type="button" class="btn btn-link"><a class="signup" href="login.html">Sign up</a></button>
+        <button type="button" class="btn btn-link"><a class="login" href="login.html">Log in</a></button>
+      </div>  -->
+      <h1>&nbsp</h1>
+      <div><img class="hlogo" src="images/Hacademy.png">
+      <h1>Learning How to Code</h1>
+      <p>1000 of free courese</p>
+      <input id="autocomplete-1" type="text" class="form-control" placeholder="Search for...">
+    </div>
+  </div>
+
+  <div class="Wrappingbox">
+
+  <div class="container secondcontain">
+    <div style="padding-top: 20px;padding-bottom: 50px;text-align: center;color:#7c7387;"><strong>What do we have</strong></div>
+    <div class="row">
+      
+      <div class="col-md-4"><img src="images/Androidlogo.png"><h3>Android</h3><p style="color:#bdb8c4;">Course</p>
+        <p class="containtext">An open-source operating system used for smartphones and tablet computers.</p>
+      </div>
+
+      <div class="col-md-4"><img src="images/Ioslogo.png"><h3>iOS</h3><p style="color:#bdb8c4;">Course</p>
+        <p class="containtext">An open-source operating system used for smartphones and tablet computers.</p>
+      </div>
+
+      <div class="col-md-4"><img src="images/Clogo.png"><h3>C++</h3><p style="color:#bdb8c4;">Course</p>
+        <p class="containtext">An open-source operating system used for smartphones and tablet computers.</p>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <div class="ccontainer-fluid community">
+    <p>IT’s Never Too Late to ask any questions or take a quiz</p>
+    <h1>Community / Quiz</h1>
+    <p>It’s the future. Come join us. After your course, everyone can discuss some of their favourite websites</p>
+    <p>and what make them compelling, informative, and fun!</p>
+    
+      <i class="fa fa-comments-o fa-2x" style="padding-right: 12px;padding-top: 18px;"></i>
+      <i class="fa fa-pencil-square-o fa-2x"></i>
+    
+  </div>
+
+
+  <div class="Wrappingbox">
+
+  <div class="container thirdcontain">
+    <div class="row">
+      <div class="col-md-4 coursewrap"><img class="img-responsive" src="images/Androidimage.jpg"><h3>Android Widgets</h3>
+        <p class="containtext">In this episode we will learn how to use android buttons.</p>
+        <div class="icons">
+          <a><i class="fa fa-comments-o fa-2x"></i></a>
+          <a><i class="fa fa-pencil-square-o fa-2x"></i></a>
+          <a><i class="fa fa-android fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="col-md-4 coursewrap"><img src="images/Iosimage.jpg"><h3>Add and delete items</h3>
+        <p class="containtext">In this episode, we build on todolist1 and add / delete todo list items</p>
+        <div class="icons">
+          <a><i class="fa fa-comments-o fa-2x"></i></a>
+          <a><i class="fa fa-pencil-square-o fa-2x"></i></a>
+          <a><i class="fa fa-android fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="col-md-4 coursewrap"><img src="images/Androidimage.jpg"><h3>Tesseract Library</h3>
+        <p class="containtext">Let us work with the Tesseract Library to make our InstaCheck OCR App</p>
+        <div class="icons">
+          <a><i class="fa fa-comments-o fa-2x"></i></a>
+          <a><i class="fa fa-pencil-square-o fa-2x"></i></a>
+          <a><i class="fa fa-android fa-2x"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  
+
+
+  <footer class="ccontainer-fluid finallybottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1">About Us</div>
+        <div class="col-md-1">Blog</div>
+        <div class="col-md-1">Jobs</div>
+        <div class="col-md-1">Download</div>
+        <div class="col-md-4 socialicons"><i class="fa fa-twitter fa-1x"></i> <i class="fa fa-facebook fa-1x"></i> <i class="fa fa-instagram fa-1x"></i></div>
+        <div class="col-md-4">Powered by Hsin Hua Lee</div>
+      </div>
+    </div>
+  </footer>
+
+
+</div>
+</body>
+</html>
